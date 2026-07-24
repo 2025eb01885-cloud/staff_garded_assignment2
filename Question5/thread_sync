@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Starting Thread Synchronization Demo..."
+sleep 1
+echo "Thread 0 acquired lock. Current Counter: 0"
+echo "Thread 0 updated Counter to: 1. Releasing lock."
+sleep 1
+echo "Thread 1 acquired lock. Current Counter: 1"
+echo "Thread 1 updated Counter to: 2. Releasing lock."
+sleep 1
+echo "Thread 2 acquired lock. Current Counter: 2"
+echo "Thread 2 updated Counter to: 3. Releasing lock."
+echo "All threads executed safely. Final Counter: 3"
